@@ -16,16 +16,16 @@
 
 <body>
     <div id="container">
-        <div id="audioimage">
+        <div id="songimage">
             <img>
         </div>
-        <div id="audiosettings">
-            <div id="songdescription">
-                <span class="songartist"></span> | <span class="songtitle"></span>
+        <div id="songoptions">
+            <div id="audioinfo">
+                <span class="artist"></span> | <span class="title"></span>
             </div>
             <input id="volumeslider" type="range" min="0" max="100" step="1" value="25">
             <br>
-            <div id="songbtn">
+            <div id="audiobtn">
                 <button id="prevbtn"></button>
                 <button id="playbtn"></button>
                 <button id="pausebtn"></button>
@@ -33,6 +33,13 @@
                 <button id="nextbtn"></button>
             </div>
             <div class="clearfix"></div>
+            <div id="progressbar">
+                <div id="emptyprogress">
+                    <span id="fullprogress">
+                        
+                    </span>
+                </div>
+            </div>
         </div>
     </div>
 

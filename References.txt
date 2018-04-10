@@ -4,6 +4,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range
 https://www.html5tutorial.info/html5-range.php
 https://www.w3schools.com/jsref/dom_obj_range.asp
 https://www.w3schools.com/howto/howto_js_rangeslider.asp
+http://htmldog.com/guides/html/intermediate/spandiv/
 
 styles.css
 https://www.w3schools.com/cssref/sel_all.asp
