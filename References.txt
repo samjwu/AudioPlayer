@@ -1,5 +1,9 @@
 index.html
 https://www.codecademy.com/en/forum_questions/502ad0ea558dfe0002026d69
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range
+https://www.html5tutorial.info/html5-range.php
+https://www.w3schools.com/jsref/dom_obj_range.asp
+https://www.w3schools.com/howto/howto_js_rangeslider.asp
 
 styles.css
 https://www.w3schools.com/cssref/sel_all.asp
