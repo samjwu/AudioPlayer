@@ -9,3 +9,7 @@ https://www.w3schools.com/howto/howto_css_clearfix.asp
 
 styles.css
 https://www.w3schools.com/cssref/sel_all.asp
+https://www.w3schools.com/cssref/pr_background-image.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/url
+http://doctype.com/whats-difference-between-clear-both-clearfix
+https://css-tricks.com/snippets/css/clear-fix/
