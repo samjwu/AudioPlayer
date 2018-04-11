@@ -6,7 +6,9 @@
 }
 
 body {
-    background: #000;
+    background: url(../img/blackrock.png);
     color: #fff;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
 }
+
