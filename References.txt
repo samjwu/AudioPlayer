@@ -11,5 +11,7 @@ styles.css
 https://www.w3schools.com/cssref/sel_all.asp
 https://www.w3schools.com/cssref/pr_background-image.asp
 https://developer.mozilla.org/en-US/docs/Web/CSS/url
+https://www.w3schools.com/cssref/pr_class_clear.asp
 http://doctype.com/whats-difference-between-clear-both-clearfix
 https://css-tricks.com/snippets/css/clear-fix/
+https://www.w3schools.com/cssref/pr_pos_overflow.asp

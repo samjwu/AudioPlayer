@@ -9,10 +9,21 @@ body {
     background: url(../img/blackrock.png);
     color: #fff;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .clearfix {
     clear: both;
 }
 
+#container {
+    width: 400px;
+    min-height: 600px;
+    background: #111;
+    overflow: auto;
+    margin: 50px auto;
+    border: #666 solid 1px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
