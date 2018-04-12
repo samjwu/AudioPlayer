@@ -12,10 +12,6 @@ body {
     font-size: 20px;
 }
 
-.clearfix {
-    clear: both;
-}
-
 #container {
     width: 400px;
     min-height: 600px;
@@ -26,4 +22,62 @@ body {
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
+}
+
+#songimage {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.audioimage {
+    width: 100%;
+    z-index: 1;
+}
+
+#audioinfo {
+    text-align: center;
+}
+
+#audioinfo .artist {
+    font-weight: bold;
+}
+
+#volumeslider {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    height: 5px;
+    border-radius: 5px;   
+    background: #fff;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#volumeslider:hover {
+    opacity: 0.8;
+}
+
+#volumeslider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #aaa;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #aaa;
+    cursor: pointer;
+}
+
+.clearfix {
+    clear: both;
 }

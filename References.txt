@@ -15,3 +15,10 @@ https://www.w3schools.com/cssref/pr_class_clear.asp
 http://doctype.com/whats-difference-between-clear-both-clearfix
 https://css-tricks.com/snippets/css/clear-fix/
 https://www.w3schools.com/cssref/pr_pos_overflow.asp
+https://www.w3schools.com/cssref/pr_pos_z-index.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
+https://www.w3schools.com/howto/howto_js_rangeslider.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-slider-thumb
+https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-range-thumb
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+https://www.w3schools.com/css/css3_transitions.asp
