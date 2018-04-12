@@ -22,3 +22,6 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-slider-thumb
 https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-range-thumb
 https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
 https://www.w3schools.com/css/css3_transitions.asp
+https://www.w3schools.com/cssref/pr_class_float.asp
+https://www.w3schools.com/css/css_float.asp
+https://stackoverflow.com/questions/39034548/is-it-possible-to-invert-an-black-and-white-image-using-css/39034572
