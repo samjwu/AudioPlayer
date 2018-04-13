@@ -139,3 +139,18 @@ button#prevbtn {
 .clearfix {
     clear: both;
 }
+
+#playlist {
+    padding: 10px;
+}
+
+#playlist li {
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#playlist li:active {
+    font-weight: bold;
+    background: #aaa;
+}
