@@ -140,6 +140,24 @@ button#prevbtn {
     clear: both;
 }
 
+#progressbar {
+    height: 30px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: left;
+    background: url(../img/emptyprogressbar.png) no-repeat;
+    background-size: 320px 30px;
+}
+
+#fullprogress {
+    display: inline-block;
+    height: 10px;
+    background: url(../img/fullprogressbar.png) no-repeat;
+    background-size: 320px 30px;
+}
+
 #playlist {
     padding: 10px;
 }
