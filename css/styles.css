@@ -79,10 +79,10 @@ body {
 }
 
 #audiobtn {
-    width: 90%;
+    width: 50%;
     display: block;
     margin: 10px auto;
-    margin-left: 15px;
+    margin-left: 25%;
     overflow: auto;
 }
 
