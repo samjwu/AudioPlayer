@@ -140,6 +140,11 @@ button#prevbtn {
     clear: both;
 }
 
+#progress {
+    position: relative;
+    width: 100%;
+}
+
 #progressbar {
     height: 30px;
     width: 80%;
@@ -156,6 +161,17 @@ button#prevbtn {
     height: 10px;
     background: url(../img/fullprogressbar.png) no-repeat;
     background-size: 320px 30px;
+}
+
+#progresslength {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
 }
 
 #playlist {
