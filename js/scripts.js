@@ -13,7 +13,7 @@ function getsong(song) {
     audioobj = new Audio("aud/" + file);
     
     if(!audioobj.currentTime) {
-        $("#progresslength").html("0.00");
+        $("#progresslength").html("0:00");
     }
     $("#audioinfo .title").text(title);
     $("#audioinfo .artist").text(artist);
@@ -21,4 +21,31 @@ function getsong(song) {
 
     $("#playlist li").removeClass("active");
     song.addClass("active");
+}
+
+$("#playbtn").click(function() {
+    audioobj.play();
+    $("#playbtn").hide();
+    $("#pausebtn").show();
+    $("#progresslength").fadeIn(250);
+    showprogresslength();
+});
+
+$("#pausebtn").click(function() {
+    audioobj.pause();
+    $("#pausebtn").hide();
+    $("#playbtn").show();
+});
+
+$("#stopbtn").click(function() {
+    audioobj.pause();
+    audioobj.currentTime = 0;
+    $("#pausebtn").hide();
+    $("#playbtn").show();
+    $("#progresslength").fadeIn(250);
+    showprogresslength();
+});
+
+function showprogresslength() {
+    $(audioobj).bind();
 }

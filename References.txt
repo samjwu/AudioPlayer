@@ -33,3 +33,5 @@ https://www.w3schools.com/jsref/prop_audio_currenttime.asp
 https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement
 https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax_element_class
 https://www.w3schools.com/cssref/sel_firstchild.asp
+https://www.w3schools.com/tags/ref_av_dom.asp
+http://api.jquery.com/bind/
