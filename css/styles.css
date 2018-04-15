@@ -162,7 +162,7 @@ button#prevbtn {
 
 #fullprogress {
     display: inline-block;
-    height: 10px;
+    height: 30px;
     background: url(../img/fullprogressbar.png) no-repeat;
     background-size: 320px 30px;
 }

@@ -47,5 +47,19 @@ $("#stopbtn").click(function() {
 });
 
 function showprogresslength() {
-    $(audioobj).bind();
+    $(audioobj).bind("timeupdate", function() {
+        var seconds = parseInt(audioobj.currentTime) % 60;
+        var minutes = parseInt((audioobj.currentTime / 60)) % 60;
+        //time formatting (eg: 0:01)
+        if(seconds < 10) {
+            seconds = "0" + seconds;
+        }
+        $("#progresslength").html(minutes + ":" + seconds);
+        //calculate percentage of progress bar to fill
+        var progressbarcompletion = 0;
+        if(audioobj.currentTime > 0) {
+            progressbarcompletion = Math.floor((audioobj.currentTime / audioobj.duration) * 100);
+        }
+        $("#fullprogress").css("width", progressbarcompletion + "%");
+    });
 }
