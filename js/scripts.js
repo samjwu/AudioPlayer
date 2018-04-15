@@ -23,6 +23,18 @@ function getsong(song) {
     song.addClass("active");
 }
 
+$("#prevbtn").click(function() {
+    audioobj.pause();
+    var prevsong = $("#playlist li.active").prev();
+    //if at start, go to end
+    if(!$(prevsong).is("li")) {
+        prevsong = $("#playlist li:last-child");
+    }
+    getsong(prevsong);
+    audioobj.play();
+    showprogresslength();
+});
+
 $("#playbtn").click(function() {
     audioobj.play();
     $("#playbtn").hide();
@@ -50,9 +62,10 @@ $("#stopbtn").click(function() {
 $("#nextbtn").click(function() {
     audioobj.pause();
     var nextsong = $("#playlist li.active").next();
+    console.log(nextsong);
     //if at end, go back to start
-    if(nextsong.length == 0) {
-        nextsong = $("playlist li:first-child");
+    if(!$(nextsong).is("li")) {
+        nextsong = $("#playlist li:first-child");
     }
     getsong(nextsong);
     audioobj.play();
