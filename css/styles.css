@@ -15,7 +15,7 @@ body {
 #container {
     width: 420px;
     min-height: 600px;
-    background: #111;
+    background: #000;
     overflow: auto;
     margin: 50px auto;
     border: #666 solid 1px;
@@ -53,12 +53,13 @@ body {
     margin-left: 5%;
     margin-bottom: 10px;
     -webkit-appearance: none;
-    height: 5px;
+    height: 15px;
     border-radius: 5px;   
     background: #fff;
     opacity: 1;
     -webkit-transition: .2s;
     transition: opacity .2s;
+    overflow: hidden;
 }
 
 #volumeslider:hover {
@@ -69,17 +70,27 @@ body {
     -webkit-appearance: none;
     width: 25px;
     height: 25px;
-    border-radius: 50%; 
-    background: #aaa;
+    border-radius: 50%;
+    border: none;
     cursor: pointer;
+    background: url(../img/volume.png);
+    background-size: 25px;
+    filter: invert(100%);
+    box-shadow: -100vw 0 0 99vw #666;
 }
 
-.slider::-moz-range-thumb {
+#volumeslider::-moz-range-thumb {
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: #aaa;
     cursor: pointer;
+    background: url(../img/volume.png);
+    background-size: 25px;
+    filter: invert(100%);
+}
+
+#volumeslider::-ms-fill-lower {
+    color: #666;
 }
 
 #audiobtn {

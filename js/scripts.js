@@ -23,6 +23,10 @@ function getsong(song) {
     song.addClass("active");
 }
 
+$("#volumeslider").change(function() {
+    audioobj.volume = parseFloat(this.value / 100);
+});
+
 $("#prevbtn").click(function() {
     audioobj.pause();
     var prevsong = $("#playlist li.active").prev();

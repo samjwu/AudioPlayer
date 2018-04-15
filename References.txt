@@ -40,3 +40,4 @@ https://api.jquery.com/next/
 https://www.w3schools.com/jquery/prop_length.asp
 https://www.w3schools.com/jquery/traversing_is.asp
 http://api.jquery.com/is/
+https://api.jquery.com/change/
