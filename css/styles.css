@@ -53,8 +53,8 @@ body {
     margin-left: 5%;
     margin-bottom: 10px;
     -webkit-appearance: none;
-    height: 15px;
-    border-radius: 5px;   
+    height: 25px;
+    border-radius: 10px;   
     background: #fff;
     opacity: 1;
     -webkit-transition: .2s;
@@ -169,6 +169,7 @@ button#prevbtn {
     float: left;
     background: url(../img/emptyprogressbar.png) no-repeat;
     background-size: 320px 30px;
+    cursor: pointer;
 }
 
 #fullprogress {

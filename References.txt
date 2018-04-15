@@ -42,3 +42,6 @@ https://www.w3schools.com/jquery/traversing_is.asp
 http://api.jquery.com/is/
 https://api.jquery.com/change/
 https://stackoverflow.com/questions/7479282/this-vs-this
+https://stackoverflow.com/questions/28311631/determine-click-position-on-progress-bar
+https://www.w3schools.com/jquery/event_pagex.asp
+https://api.jquery.com/offset/

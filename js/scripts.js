@@ -23,21 +23,6 @@ function getsong(song) {
     song.addClass("active");
 }
 
-//choose song from playlist by clicking
-$("#playlist li").click(function() {
-    //do nothing if current song is clicked
-    if(this == $("#playlist li.active")["0"]) {
-        return;
-    }
-    $("#playbtn").hide();
-    $("#pausebtn").show();
-    audioobj.pause();
-    getsong($(this) );
-    audioobj.play();
-    $("#progresslength").fadeIn(250);
-    showprogresslength();
-});
-
 $("#volumeslider").change(function() {
     audioobj.volume = parseFloat(this.value / 100);
 });
@@ -77,17 +62,23 @@ $("#stopbtn").click(function() {
     showprogresslength();
 });
 
-
 $("#nextbtn").click(function() {
     audioobj.pause();
     var nextsong = $("#playlist li.active").next();
-    console.log(nextsong);
     //if at end, go back to start
     if(!$(nextsong).is("li")) {
         nextsong = $("#playlist li:first-child");
     }
     getsong(nextsong);
     audioobj.play();
+    showprogresslength();
+});
+
+//change current time of song by clicking on progress bar
+$("#progressbar").click(function(clickevent) {
+    var start = $("#progressbar").offset().left;
+    var clickposition = clickevent.pageX - start;
+    audioobj.currentTime = (clickposition / $("#progressbar").width()) * audioobj.duration;
     showprogresslength();
 });
 
@@ -112,3 +103,18 @@ function showprogresslength() {
         }
     });
 }
+
+//choose song from playlist by clicking
+$("#playlist li").click(function() {
+    //do nothing if current song is clicked
+    if(this == $("#playlist li.active")["0"]) {
+        return;
+    }
+    $("#playbtn").hide();
+    $("#pausebtn").show();
+    audioobj.pause();
+    getsong($(this) );
+    audioobj.play();
+    $("#progresslength").fadeIn(250);
+    showprogresslength();
+});
