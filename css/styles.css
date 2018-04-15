@@ -13,7 +13,7 @@ body {
 }
 
 #container {
-    width: 400px;
+    width: 420px;
     min-height: 600px;
     background: #111;
     overflow: auto;
@@ -41,7 +41,11 @@ body {
 }
 
 #audioinfo .artist {
-    font-weight: bold;
+    color: #ffa500;
+}
+
+#audioinfo .title {
+    color: red;
 }
 
 #volumeslider {
@@ -148,7 +152,7 @@ button#prevbtn {
 #progressbar {
     height: 30px;
     width: 80%;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 10px;
     margin-bottom: 20px;
     float: left;
@@ -165,9 +169,9 @@ button#prevbtn {
 
 #progresslength {
     position: absolute;
-    top: 0px;
-    right: 10px;
-    background: #fff;
+    top: 10px;
+    right: 5%;
+    background: #000;
     padding: 5px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -184,7 +188,6 @@ button#prevbtn {
     cursor: pointer;
 }
 
-#playlist li:active {
-    font-weight: bold;
-    background: #aaa;
+#playlist li.active {
+    color: red;
 }
