@@ -26,3 +26,10 @@ https://www.w3schools.com/cssref/pr_class_float.asp
 https://www.w3schools.com/css/css_float.asp
 https://stackoverflow.com/questions/39034548/is-it-possible-to-invert-an-black-and-white-image-using-css/39034572
 https://www.w3schools.com/cssref/sel_active.asp
+
+scripts.js
+https://www.w3schools.com/jsref/dom_obj_audio.asp
+https://www.w3schools.com/jsref/prop_audio_currenttime.asp
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement
+https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax_element_class
+https://www.w3schools.com/cssref/sel_firstchild.asp
