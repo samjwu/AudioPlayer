@@ -36,3 +36,5 @@ https://www.w3schools.com/cssref/sel_firstchild.asp
 https://www.w3schools.com/tags/ref_av_dom.asp
 http://api.jquery.com/bind/
 https://www.w3schools.com/jsref/prop_audio_duration.asp
+https://api.jquery.com/next/
+https://www.w3schools.com/jquery/prop_length.asp

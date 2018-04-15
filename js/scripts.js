@@ -46,6 +46,19 @@ $("#stopbtn").click(function() {
     showprogresslength();
 });
 
+
+$("#nextbtn").click(function() {
+    audioobj.pause();
+    var nextsong = $("#playlist li.active").next();
+    //if at end, go back to start
+    if(nextsong.length == 0) {
+        nextsong = $("playlist li:first-child");
+    }
+    getsong(nextsong);
+    audioobj.play();
+    showprogresslength();
+});
+
 function showprogresslength() {
     $(audioobj).bind("timeupdate", function() {
         var seconds = parseInt(audioobj.currentTime) % 60;
