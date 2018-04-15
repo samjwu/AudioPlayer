@@ -23,6 +23,21 @@ function getsong(song) {
     song.addClass("active");
 }
 
+//choose song from playlist by clicking
+$("#playlist li").click(function() {
+    //do nothing if current song is clicked
+    if(this == $("#playlist li.active")["0"]) {
+        return;
+    }
+    $("#playbtn").hide();
+    $("#pausebtn").show();
+    audioobj.pause();
+    getsong($(this) );
+    audioobj.play();
+    $("#progresslength").fadeIn(250);
+    showprogresslength();
+});
+
 $("#volumeslider").change(function() {
     audioobj.volume = parseFloat(this.value / 100);
 });
@@ -91,5 +106,9 @@ function showprogresslength() {
             progressbarcompletion = Math.floor((audioobj.currentTime / audioobj.duration) * 100);
         }
         $("#fullprogress").css("width", progressbarcompletion + "%");
+        //autoplay next song when current song ends
+        if(audioobj.currentTime >= audioobj.duration) {
+            $("#nextbtn").trigger("click");
+        }
     });
 }

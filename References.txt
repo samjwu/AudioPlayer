@@ -41,3 +41,4 @@ https://www.w3schools.com/jquery/prop_length.asp
 https://www.w3schools.com/jquery/traversing_is.asp
 http://api.jquery.com/is/
 https://api.jquery.com/change/
+https://stackoverflow.com/questions/7479282/this-vs-this
